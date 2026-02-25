@@ -205,3 +205,17 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# --- MineGuard AI Specific ---
+# Exclude locally generated or augmented data files
+training_data_augmented.csv
+synthetic_rockfall_data.csv
+labeled_rockfall_data.csv
+
+# Exclude Streamlit local secrets (Twilio API keys, etc.)
+.streamlit/secrets.toml
+
+# Archive files
+archive.zip
+archive/
